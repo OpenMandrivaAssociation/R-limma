@@ -1,10 +1,10 @@
-%bcond_without bootstrap
+%bcond_with bootstrap
 %global packname  limma
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
 Version:          3.10.2
-Release:          1
+Release:          2
 Summary:          Linear Models for Microarray Data
 Group:            Sciences/Mathematics
 License:          LGPL
