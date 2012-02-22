@@ -10,17 +10,14 @@ Group:            Sciences/Mathematics
 License:          LGPL
 URL:              http://bioconductor.org/packages/release/bioc/html/limma.html
 Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/limma_3.10.2.tar.gz
-Requires:         R-methods 
-%if %{with bootstrap}
-Requires:         R-affy R-MASS R-org.Hs.eg.db R-splines R-statmod
-%else
-Requires:         R-affy R-MASS R-org.Hs.eg.db R-splines R-statmod R-vsn 
+Requires:         R-methods R-affy R-MASS R-org.Hs.eg.db R-splines R-statmod
+%if %{without bootstrap}
+Requires:         R-vsn
 %endif
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods
-%if %{with bootstrap}
-BuildRequires:   R-affy R-MASS R-org.Hs.eg.db R-splines R-statmod
-%else
-BuildRequires:   R-affy R-MASS R-org.Hs.eg.db R-splines R-statmod R-vsn 
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-methods R-affy R-MASS R-org.Hs.eg.db R-splines R-statmod
+%if %{without bootstrap}
+BuildRequires:    R-vsn
 %endif
 
 %description
