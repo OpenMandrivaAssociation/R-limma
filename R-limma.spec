@@ -3,8 +3,8 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          3.10.2
-Release:          2
+Version:          3.14.4
+Release:          1
 Summary:          Linear Models for Microarray Data
 Group:            Sciences/Mathematics
 License:          LGPL
