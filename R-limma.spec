@@ -4,7 +4,7 @@
 
 Name:             R-%{packname}
 Version:          3.14.4
-Release:          1
+Release:          2
 Summary:          Linear Models for Microarray Data
 Group:            Sciences/Mathematics
 License:          LGPL
