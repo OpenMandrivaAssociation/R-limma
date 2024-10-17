@@ -8,7 +8,7 @@ Release:          2
 Summary:          Linear Models for Microarray Data
 Group:            Sciences/Mathematics
 License:          LGPL
-URL:              http://bioconductor.org/packages/release/bioc/html/limma.html
+URL:              https://bioconductor.org/packages/release/bioc/html/limma.html
 Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/limma_3.14.4.tar.gz
 Requires:         R-methods R-affy R-MASS R-org.Hs.eg.db R-splines R-statmod
 %if %{without bootstrap}
